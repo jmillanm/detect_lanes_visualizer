@@ -68,10 +68,6 @@ with row1_2, _lock:
     rho = st.slider("rho", 1, 10, 2)
     max_line_gap = st.slider("max_line_gap", 0, 200, 20)
 
-submit = st.button('Calculate')
-
-if submit:
-
 row2_1, row2_2, row2_3, row2_4 = st.columns((1,1,1,1))
 
 with row2_1, _lock:
